@@ -1,22 +1,41 @@
 # Blog App
 
+Full-stack blog platform built with Spring Boot and React.
+
 ## Tech Stack
 
-**Backend** — Java 17, Spring Boot 3, Spring Security, JWT, Spring Data JPA, Hibernate, MySQL 8, Maven, Lombok
+**Backend**
+- Java
+- Spring Boot
+- Spring Security
+- JWT
+- Spring Data JPA
+- Hibernate
+- MySQL
+- Maven
+- Lombok
 
-**Frontend** — React 18, React Router 6, Axios, CSS
+**Frontend**
+- React
+- React Router
+- Axios
+- CSS
 
 ## Features
 
 - JWT authentication with role-based access control
-- User — create, edit, delete blogs with multi-category and multi-image support
-- User — like/dislike blogs, view reacted blogs, manage profile
-- Admin — manage users, blogs, and categories from a dedicated panel
+- User
+  - Create, edit, delete blogs with multi-category and multi-image support
+  - Like/dislike blogs
+  - View reacted blogs
+  - Manage profile
+- Admin
+  - Manage users, blogs, and categories from a dedicated panel
 - Category-based blog filtering
-- Pagination — 5 blogs per page
+- Pagination (5 blogs per page)
 - Image carousel per blog
 - Auto logout on credential change
-- Cascade deletion — removing a user or category cleans up related data
+- Cascade deletion (removing a user or category cleans up related data)
 
 ## Setup
 
@@ -70,8 +89,6 @@ Register through the app, then run:
 ```sql
 UPDATE users SET role = 'ROLE_ADMIN' WHERE email = 'your@email.com';
 ```
-
-Log out and log back in.
 
 ## License
 
