@@ -1,0 +1,38 @@
+.blog-form-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+}
+
+.blog-form { display: flex; flex-direction: column; gap: 18px; }
+
+.image-upload-label {
+  display: inline-block;
+  padding: 7px 14px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  font-size: 13px;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: border-color var(--transition), color var(--transition);
+}
+.image-upload-label:hover { border-color: var(--accent); color: var(--accent); }
+.image-upload-label input { display: none; }
+
+.image-upload-grid { display: flex; flex-wrap: wrap; gap: 10px; }
+
+.image-preview-thumb {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  padding-top: 6px;
+}

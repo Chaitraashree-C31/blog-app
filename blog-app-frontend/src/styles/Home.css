@@ -1,0 +1,17 @@
+.home-hero {
+  padding: 40px 0 28px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 28px;
+}
+
+.home-hero h1 { font-size: 2rem; color: var(--text); }
+
+.home-toolbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.blog-list { display: flex; flex-direction: column; gap: 20px; }
